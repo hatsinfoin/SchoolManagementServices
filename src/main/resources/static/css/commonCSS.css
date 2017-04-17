@@ -1,0 +1,16 @@
+body {
+	-webkit-touch-callout: none;
+	/* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;
+	/* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;
+	/* prevent copy paste, to allow, change 'none' to 'text' */
+	background-color: #8080ff;
+	padding: 4px 0;
+	 color: #000000;
+	display: inline;
+	margin: 0;
+}
+);
+
+.container1{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:320px){.container1{width:320px}}@media (min-width:320px){.container1{width:320px}}@media (min-width:320px){.container1{320px}}.container1-fluid{padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
