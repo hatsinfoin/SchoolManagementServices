@@ -47,7 +47,7 @@ public class UserCtrl {
 	public Response getUserDtls(@QueryParam ("userName")   String userName) {
 		System.out.println("*********userName********* "+userName);
  		User allUsers = new  User ();
-		try{
+		try{ 
 			allUsers =userDao.getUser(userName);
 			System.out.println(allUsers);
 			 return Response.status(200).entity(allUsers).build();
